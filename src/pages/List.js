@@ -1,5 +1,5 @@
 import React, { useState, useEffect, createRef } from "react";
-import useStyles from "../Header/styles";
+import useStyles from "../styles";
 
 import {
   Typography,
@@ -57,7 +57,7 @@ const List = ({ places, childClicked, isLoading }) => {
           <Grid item key={i} xs={12}>
             <PlaceDetails 
                 place={place}
-                selected= {Number(childClicked) == i}
+                selected= {Number(childClicked) === i}
                 refprop={elRefs[i]}
                 />
           </Grid>

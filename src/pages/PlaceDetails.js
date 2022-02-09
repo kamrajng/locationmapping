@@ -1,6 +1,6 @@
 import React from "react";
 import LocationOnIcon from "@mui/icons-material/LocationOn";
-import useStyles from "../Header/styles";
+import useStyles from "../styles";
 import { Card, CardContent, CardMedia, Typography, Box, Chip, Rating } from "@mui/material";
 import PhoneIcon from '@mui/icons-material/Phone';
 import { Button, CardActions } from "@material-ui/core";

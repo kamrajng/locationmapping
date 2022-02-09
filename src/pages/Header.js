@@ -1,7 +1,7 @@
 import React from 'react';
 import SearchIcon from '@mui/icons-material/Search';
 import { AppBar, Toolbar, Typography, InputBase, Box } from '@mui/material';
-import useStyles from '../Header/styles.js';
+import useStyles from '../styles.js';
 
 const Header = () => {
   const classes = useStyles();
