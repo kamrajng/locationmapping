@@ -1,5 +1,6 @@
 import React, { useState, useEffect, createRef } from "react";
-import useStyles from "./styles";
+import useStyles from "../Header/styles";
+
 import {
   Typography,
   FormControl,
@@ -9,7 +10,7 @@ import {
   Grid,
   CircularProgress
 } from "@mui/material";
-import PlaceDetails from '../PlaceDetails/PlaceDetails';
+import PlaceDetails from './PlaceDetails';
 
 const List = ({ places, childClicked, isLoading }) => {
   const classes = useStyles();

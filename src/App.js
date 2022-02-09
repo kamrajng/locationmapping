@@ -1,8 +1,8 @@
 import { CssBaseline, Grid } from '@mui/material';
 import React, { useEffect, useState} from 'react';
-import Header from './Header/Header';
-import List from './List/List';
-import Map from './Map/Map';
+import Header from './pages/Header';
+import List from './pages/List';
+import Map from './pages/Map';
 import { getPlaceData } from './api';
 
 const App = () => {
